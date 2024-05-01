@@ -104,7 +104,7 @@ __powerline() {
         fi
 
         PS1="$FG_COLOR1"
-        PS1+="$BG_COLOR5 \\u > \w "
+        PS1+="$BG_COLOR5 \\u@\h > \w "
         PS1+="$RESET${FG_COLOR6}"
         PS1+="$(__git_info)"
         PS1+="$BG_EXIT$RESET"
